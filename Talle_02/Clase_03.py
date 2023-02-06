@@ -26,30 +26,30 @@ elif op == 2:
     mes= int(input("Muy bien usted ha seleccionado introducir su edad en meses, cuantos meses tiene? : "))
     calc = mes/12
     if mes >=228:
-        print(f"Usted es un adulto de {calc: .2f} años, debe dormir 7 horas por noche o más.")
+        print(f"Usted es un adulto de {calc: .0f} años, debe dormir 7 horas por noche o más.")
     elif mes >=156 <228:
-        print(f"Usted es un adolescente de {calc: .2f} años. \nSi su edad es de 13 a 18 años debe dormir entre 8 a 10 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
+        print(f"Usted es un adolescente de {calc: .0f} años. \nSi su edad es de 13 a 18 años debe dormir entre 8 a 10 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
     elif mes >=72 <156:
-        print(f"Ha ingresado que es un niño de {calc: .2f} años. \nSi el menor entra en rango de edad de 6 a 12 años debe dormir de 9 a 12 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
+        print(f"Ha ingresado que es un niño de {calc: .0f} años. \nSi el menor entra en rango de edad de 6 a 12 años debe dormir de 9 a 12 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
     elif mes >=12 <=24:
-        print(f"Ha ingresado que es un infante de {calc: .2f} años. \nSi tiene 1 o 2 años debe dormir de 11 a 14 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
+        print(f"Ha ingresado que es un infante de {calc: .0f} años. \nSi tiene 1 o 2 años debe dormir de 11 a 14 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
     elif mes >=36 <72:
-        print(f"Ha ingresado que es un niño de {calc: .2f} años. \nSi el menor entra en rango de edad de 3 a 5 años debe dormir de 10 a 13 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
+        print(f"Ha ingresado que es un niño de {calc: .0f} años. \nSi el menor entra en rango de edad de 3 a 5 años debe dormir de 10 a 13 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
     elif mes < 12:
         print(f"Ha ingresado que es un infante de {mes} meses.\nSi tiene menos de 1 año debe dormir de 12 a 16 horas.\nSi no entra en ese rango favor vuelva al menu de opciones.")
 elif op == 3:
     annos= float(input("Muy bien usted ha seleccionado introducir su edad en años, cuantos años tiene? :"))
     if annos >=19:
         print("Usted es un adulto, debe dormir 7 horas por noche o más.")
-    elif mes >=13 <19:
+    elif annos >=13 <19:
         print("Usted es un adolescente.\nSi su edad es de 13 a 18 años debe dormir entre 8 a 10 horas. \nSi no entra en ese rango favor vuelva al menu de opciones.")
-    elif mes >=6 <13:
+    elif annos >=6 <13:
         print("Ha ingresado que es un niño, los mismos cuentan con un rango de edad entre 6 a 12 años. \nSi el menor entra en ese rango de edad debe dormir de 9 a 12 horas.")
-    elif mes >=1 <=2:
+    elif annos >=1 <=2:
         print("debe dormir de 11 a 14 horas.")
-    elif mes >=3 <6:
+    elif annos >=3 <6:
         print("debe dormir de 10 a 13 horas.")
-    elif mes < 1:
+    elif annos < 1:
         print("debe dormir de 12 a 16 horas.")
 
 
