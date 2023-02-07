@@ -1,6 +1,6 @@
 
 print("Como desea expresar su edad?")
-print("1.cadena \n2.meses \n3.años \n4.dias \n5.horas \nFavor introducir el número de su elección entre 1-4.")
+print("1.cadena \n2.meses \n3.años \n4.dias \n5.horas \nFavor introducir el número de su elección entre 1-5.")
 op= int(input("Elección: "))
 
 cad = ""
